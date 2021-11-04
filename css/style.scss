@@ -1,0 +1,135 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-size: 20px;
+    background-color: #000000;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    box-sizing: content-box;
+    padding: 0 15px;
+}
+.navbar{
+    width: 100%;
+    min-height: 80px;
+    background-color: #0066ff;
+}
+.navbar_content{
+    min-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+}
+.menu{
+    .list_menu{
+        display: flex;
+    }
+    li{
+        margin-right: 15px;
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+    a{
+        color: #ffffff;
+    }
+}
+.header{
+    width: 100%;
+    height: 615px;
+    background-color: #ffff13;
+}
+.header_title{
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+}
+.paragraph{
+    text-align: center;
+    color: #ffff13;
+    background-color: rgba(0, 0%, 0%,0.8);
+    padding: 15px;
+    margin-top: 30px;
+}
+.main{
+    width: 100%;
+    height: 615px;
+    background-color: #ff1313;
+}
+.main_title{
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+.section_container{
+    display: flex;
+    justify-content: space-between;
+}
+section{
+    width: 559px;
+    height: 500px;
+    background-color: #eb6464;
+    margin-top: 40px;
+}
+.section_title{
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+}
+.paragraph_section{
+    width: 400px;
+    min-height: 100px;
+    background-color: rgba(192, 53, 53, 0.8);
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: #0066ff;
+}
+.footer_title{
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+.social_icons_container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.icon_link{
+    display: inline-block;
+    margin-right: 30px;
+    &:last-child{
+        margin-right: 0;
+    }
+    .icon{
+        width: 50px;
+        height: 50px;
+        background-color: #ffffff;
+    }
+}
